@@ -4,3 +4,39 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .card {
+    position: relative;
+    height: 1200px; /* Fixed height */
+    width: auto; /* Width adjusts based on aspect ratio */
+    aspect-ratio: auto; /* Automatically maintain the aspect ratio of the background image */
+    margin: auto; /* Center the card horizontally */
+    margin: 40px; /* Add 40px margin */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure content stays within the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  }
+  
+  .card-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; /* Full height of the card */
+    width: 100%; /* Full width, adapts proportionally */
+    background-image: url('../images/sua-ti.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the image fills the card while maintaining aspect ratio */
+    background-position: center; /* Center the image */
+    filter: blur(5px); /* Add blur effect */
+  }
+  
+  .card-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Position the text above the background */
+    color: white;
+    font-size: 2rem; /* Adjust the font size */
+    text-align: center; /* Center-align the text */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+  }
