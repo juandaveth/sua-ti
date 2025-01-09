@@ -41,7 +41,7 @@
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
   }
 
-
+/* Tablet mobile responsiveness*/
 @media (max-width: 768px) {
   .card {
     height: 800px; /* Reduce height for tablets */
@@ -50,5 +50,6 @@
   .card-text {
     font-size: 1.5rem; /* Smaller font size for readability */
     padding: 10px; /* Add padding for better spacing */
+    max-width: 90%;
   }
 }
