@@ -23,7 +23,7 @@
     left: 0;
     height: 100%; /* Full height of the card */
     width: 100%; /* Full width, adapts proportionally */
-    background-image: url('../images/sua-ti.jpg'); /* Path to your background image */
+    background-image: url('/images/sua-ti.jpg'); /* Path to your background image */
     background-size: cover; /* Ensure the image fills the card while maintaining aspect ratio */
     background-position: center; /* Center the image */
     filter: blur(5px); /* Add blur effect */
