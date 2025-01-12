@@ -59,7 +59,7 @@
   }
 
   .card-text {
-    font-size: 1rem; /* Smaller font size for small screens */
+    font-size: 0.9rem; /* Smaller font size for small screens */
     padding: 10px;
   }
 }
