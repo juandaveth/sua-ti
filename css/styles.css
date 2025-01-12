@@ -44,7 +44,7 @@
 /* Tablet mobile responsiveness*/
 @media (max-width: 768px) {
   .card {
-    height: 800px; /* Reduce height for tablets */
+    height: 900px; /* Reduce height for tablets */
   }
   
   .card-text {
