@@ -51,3 +51,15 @@
     font-size: 1.2rem; /* Smaller font size for readability */
   }
 }
+
+/* Phone adjustments */
+@media (max-width: 480px) {
+  .card {
+    height: 600px; /* Smaller height for phones */
+  }
+
+  .card-text {
+    font-size: 1rem; /* Smaller font size for small screens */
+    padding: 10px;
+  }
+}
