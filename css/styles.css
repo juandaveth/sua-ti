@@ -48,8 +48,6 @@
   }
   
   .card-text {
-    font-size: 1.5rem; /* Smaller font size for readability */
-    padding: 10px; /* Add padding for better spacing */
-    max-width: 90%;
+    font-size: 1.2rem; /* Smaller font size for readability */
   }
 }
