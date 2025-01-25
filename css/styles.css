@@ -8,7 +8,7 @@
 
 /* Body Styling */
 body {
-  font-family: Cochin;
+  font-family: Cochin, Lora, 'Times New Roman', Times, serif;
   color: bisque;
   background-color: #818342; /* verde claro background */
   display: flex;
