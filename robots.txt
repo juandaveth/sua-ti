@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sua-ti.com/sitemap.xml
