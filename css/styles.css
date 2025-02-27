@@ -14,7 +14,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column; /* Asegura que el logo esté arriba */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center;
+  height: 100vh;
+  padding: 20px; /* Para evitar que el contenido quede pegado */
+}
+
+/* Card logo */
+.card-logo {
+  display: block; 
+  width: 200px; 
+  height: auto; 
+  border-radius: 10px; 
+  margin: 20px auto;
 }
 
 /* Card Styling */
@@ -22,7 +36,7 @@ body {
   width: 80%;
   background: #B86D46; /* Beige background */
   border-radius: 10px;
-  overflow: hidden;
+  overflow: visible;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
